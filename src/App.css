@@ -15,6 +15,11 @@ p.description {
   font-weight: 400;
   font-style: normal;
 }
+b{
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
 .column1{
   float: left;
   width: 50%;
@@ -60,11 +65,7 @@ h4{
   font-size: 20px;
   margin-bottom:20px;
   font-family: 'Montserrat', sans-serif;
-}
-h5{
-  font-size: 20px;
-  margin-bottom:20px;
-  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
 }
 .App form {
   display: inline-block;
@@ -101,13 +102,17 @@ h5{
   margin-bottom: 20px;
 }
 .searchResultDiv h3 {
-  color: black;
+  color: #414141;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 22px;
 }
 .searchResultDiv h3 a {
   color: #1a0dab;
   display: inline-block;
   line-height: 16px;
   text-decoration: none;
+  font-weight: 600;
 }
 .searchResultDiv h3 a:hover {
   border-bottom: 3px solid;
@@ -130,5 +135,6 @@ h5{
   padding: 0 20px;
   border-radius: 20px 20px 20px 20px;
   cursor: pointer;
-  margin-left: 380px;
+  float: right;
+  margin-bottom: 20px;
 }
