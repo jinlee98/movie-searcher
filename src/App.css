@@ -77,11 +77,14 @@ h4{
   line-height: 40px;
   border-radius: 20px 0 0 20px;
   border: none;
-  width: 400px;
+  width: 150px;
   padding: 0 20px;
   background-color: white;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 .App input:focus {
+  width:450px;
   outline: none;
 }
 .App button {

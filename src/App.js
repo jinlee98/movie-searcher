@@ -126,7 +126,7 @@ class App extends React.Component {
         <h1>Movie Finder</h1>
         <h2>Title Search:</h2>
         <form action="">
-          <input type="text" value={this.state.movieSearchTerms || ''} onChange={this.changemovieSearchTerms} placeholder='Search movie titles' />
+          <input type="text" value={this.state.movieSearchTerms || ''} onChange={this.changemovieSearchTerms} placeholder='Search...' />
           <button type='submit' onClick={this.useMovieSearchEngine}>Search</button>
         </form>
         <div></div>
